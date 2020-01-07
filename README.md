@@ -2,7 +2,7 @@
 
 # Komponen-Komponen Kubernetes
 
-**1. Komponen Master**
+1. **Komponen Master**
 
      Komponen master menyediakan control plane bagi klaster. Komponen ini berperan dalam proses pengambilan secara global pada klaster, serta berperan dalam proses deteksi serta pemberian respons terhadap events yang berlangsung di dalam klaster.
 
@@ -147,5 +147,5 @@ Mengekspos Pod sebagai Layanan Kubernetes (Service Kubernetes) digunakan untuk m
 
 5.  Setalah mengubah port yang sesuai kemudian klik Display Port pada Katacoda,
     maka akan muncul isi dari images docker `python-flask:v2`
-    
+
     ![](uas/10.png)
