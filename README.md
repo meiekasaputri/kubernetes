@@ -97,6 +97,9 @@
 
 Kubernetes Pod adalah grup yang terdiri dari satu atau lebih Container, yang saling terhubung untuk keperluan administrasi dan jaringan. Pod dalam praktik ini hanya memiliki satu Container. Deployment Kubernetes memeriksa kesehatan Pod dan memulai kembali (restart) Container Pod jika sudah berakhir atau mati. Deployment adalah cara yang disarankan untuk mengelola pembuatan dan replikasi Pod.
 
+Dalam praktik ini saya menggunakan terminal yang memiliki fitur minikube di URL berikut :
+https://kubernetes.io/docs/tutorials/hello-minikube/
+
 1. `kubectl create` perintah ini digunakan untuk membuat sebuah Deployment untuk memanage atau mengatur sebuah Pod.
     Dimana Pod menjalankan Container berdasarkan pada images Docker yang disediakan.
     Yang mana `python-flask:v2` adalah images Docker dan `050612` adalah akun DockerHub saya.
